@@ -17,8 +17,9 @@ public class matrix{
                 arr[i][j]=sc.nextInt();
             }
         }
-        for(i=0;i<rows; i++){
-            for(j=0; j<columns; j++){
+        System.out.println("array: ")
+        for(int i=0;i<rows; i++){
+            for(int j=0; j<columns; j++){
                 System.out.print(arr[i][j]+" ");
             }
             System.out.println(" ");
